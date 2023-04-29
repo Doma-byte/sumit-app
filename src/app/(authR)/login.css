@@ -1,0 +1,79 @@
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.register-container{
+    width:100%;
+    height: 85vh;
+    position: relative;
+}
+.register_name{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 450px;
+    /* margin: 20px auto; */
+    padding: 0px 20px 20px 20px;
+    /* height: 600px; */
+    position: absolute;
+    right: 5%;
+    top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    font-size: 17px;
+}
+input{
+    width: 98%;
+    padding: 10px 5px 0px 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+input:hover{
+    outline: none;
+}
+.form-body{
+    text-align: left;
+    padding: 15px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+.register_btn{
+    padding: 10px 24px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.take-to-login{
+    margin:10px auto;
+}
+
+
+@media screen and (max-width: 580px) {
+   .form{
+width: 99%;
+position: static;
+   }
+  }
